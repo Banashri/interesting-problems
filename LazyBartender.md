@@ -64,17 +64,17 @@ public class LazyBartender {
         System.out.println("Drinks served by bartender are : " + result);
     }
     
-	public static void main(String[] args) {
-		
-		List<List<Integer>> preferences = new ArrayList<>();
-		preferences.add(Arrays.asList(3, 7, 5, 2, 9));
-		preferences.add(Arrays.asList(5));
-		preferences.add(Arrays.asList(2, 3));
-		preferences.add(Arrays.asList(4));
-		preferences.add(Arrays.asList(3, 4, 5, 7));
-		
-		LazyBartender lazybum = new LazyBartender(preferences);
-		lazybum.solve();
-	}
+    public static void main(String[] args) {
+
+	List<List<Integer>> preferences = new ArrayList<>();
+	preferences.add(Arrays.asList(3, 7, 5, 2, 9));
+	preferences.add(Arrays.asList(5));
+	preferences.add(Arrays.asList(2, 3));
+	preferences.add(Arrays.asList(4));
+	preferences.add(Arrays.asList(3, 4, 5, 7));
+
+	LazyBartender lazybum = new LazyBartender(preferences);
+	lazybum.solve();
+    }
 }
 ```
